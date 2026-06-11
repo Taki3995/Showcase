@@ -8,7 +8,7 @@ Selecciona cualquiera de los proyectos a continuación para explorar el código 
 
 ## 🌐 Arquitectura de Sistemas & Desarrollo Full-Stack
 
-### 1. [DalliaOS: Infraestructura de Self-Hosting Automatizada](Enlace-a-tu-repo-o-landing-page)
+### 1. [DalliaOS: Infraestructura de Self-Hosting Automatizada](https://github.com/Akari-AI)
 Plataforma y ecosistema de autohospedaje diseñado para democratizar la privacidad digital, eliminando la barrera técnica del despliegue de servidores para usuarios comunes.
 *   **Problema a Resolver:** La extrema complejidad técnica (redes, puertos, SSL) y los riesgos de seguridad que obligan a la población a depender exclusivamente de nubes corporativas centralizadas, perdiendo el control de sus datos.
 *   **Enfoque Arquitectónico:** Desarrollo de una arquitectura robusta y automatizada que orquesta contenedores en segundo plano. Implementación de proxy inverso dinámico (Traefik) y gestión de tareas asíncronas de alto rendimiento.
