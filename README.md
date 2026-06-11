@@ -69,4 +69,4 @@ Plataforma de monitoreo y proyección de niveles de inventario en estanques sat�
 *   **Stack:** `Python` `Tkinter` `Power BI` `Heurísticas de Negocio`
 
 ---
-> 💡 *Para ver implementaciones de escala académica, scripts universitarios y laboratorios de experimentación, visita mi repositorio [academic-archive](URL-DE-TU-OTRO-REPO-AQUI).*
+> 💡 *Para ver implementaciones de escala académica, scripts universitarios y laboratorios de experimentación, visita mi repositorio [academic-archive](https://github.com/Taki3995/Academic-Archive-and-Applied-Research.git).*
