@@ -4,6 +4,14 @@ Bienvenido/a a mi portafolio principal. Este repositorio funciona como un índic
 
 Selecciona cualquiera de los proyectos a continuación para explorar el código fuente, la arquitectura y los resultados obtenidos.
 
+## 📑 Índice de Contenidos
+* [🌐 Arquitectura de Sistemas & Desarrollo Full-Stack](#-arquitectura-de-sistemas--desarrollo-full-stack)
+* [🧠 Deep Learning & Natural Language Processing](#-deep-learning--natural-language-processing)
+* [📊 Machine Learning & Análisis Predictivo](#-machine-learning--análisis-predictivo)
+* [📡 Procesamiento de Señales (DSP) & Detección de Anomalías](#-procesamiento-de-señales-dsp--detección-de-anomalías)
+* [⚙️ Investigación de Operaciones & Optimización](#️-investigación-de-operaciones--optimización)
+* [🛠️ Data Engineering & Automatización Operativa](#️-data-engineering--automatización-operativa-experiencia-industrial)
+
 ---
 
 ## 🌐 Arquitectura de Sistemas & Desarrollo Full-Stack
@@ -15,6 +23,8 @@ Plataforma y ecosistema de autohospedaje diseñado para democratizar la privacid
 *   **Seguridad y Auditoría:** Integración de hardware de seguridad (Go-TPM), autenticación *passwordless* (WebAuthn), y telemetría avanzada para monitoreo de infraestructura.
 *   **Stack Backend & DevOps:** `Go (Golang)` `Docker` `Traefik` `PostgreSQL` `Prometheus` `Github Actions`
 *   **Stack Frontend & Auth:** `React` `TypeScript` `Tailwind` `WebAuthn` `TPM`
+
+---
 
 ## 🧠 Deep Learning & Natural Language Processing
 
@@ -42,9 +52,19 @@ Modelo probabilístico diseñado para predecir la quiebra de empresas utilizando
 
 ---
 
+## 📡 Procesamiento de Señales (DSP) & Detección de Anomalías
+
+### 5. [Detección de Anomalías Industriales (CWRU Bearing Anomaly)](https://github.com/Taki3995/cwru-bearing-fault-diagnosis.git)
+Sistema automatizado para el diagnóstico y detección de fallos en rodamientos utilizando técnicas avanzadas de Procesamiento Digital de Señales (DSP), sin depender de modelos de Machine Learning (caja negra).
+*   **Enfoque Técnico:** Procesamiento de señales de vibración mediante implementación nativa de Filtros de Sub-banda Iterativos de Fourier y Transformadas de Hilbert para el análisis de la envolvente de amplitud. 
+*   **Optimizaciones:** Aislamiento de transitorios de impacto mecánico del ruido electromagnético y rotacional minimizando la Entropía Espectral de Shannon. Detección de anomalías evaluando el Top 12 de picos de energía contra la cinemática teórica del rodamiento (BPFI, BPFO, BSF) bajo estrictos márgenes de tolerancia.
+*   **Stack:** `Python` `NumPy` `SciPy` `DSP` `Data Analysis`
+
+---
+
 ## ⚙️ Investigación de Operaciones & Optimización
 
-### 5. [Optimización Híbrida para Facility Location (CFLP)](https://github.com/Taki3995/Single-Multi-Source-CFLP.git)
+### 6. [Optimización Híbrida para Facility Location (CFLP)](https://github.com/Taki3995/Single-Multi-Source-CFLP.git)
 Solución matemática avanzada para el Problema de Localización de Instalaciones con Capacidades (Capacitated Facility Location Problem).
 *   **Enfoque Técnico:** Diseño de un algoritmo híbrido que minimiza los costos conjuntos de transporte y apertura de instalaciones.
 *   **Optimizaciones:** Integración de una Metaheurística Tabú con un Modelo Exacto para alcanzar convergencia rápida y óptimos globales.
@@ -55,13 +75,13 @@ Solución matemática avanzada para el Problema de Localización de Instalacione
 ## 🛠️ Data Engineering & Automatización Operativa (Experiencia Industrial)
 *Proyectos desarrollados y desplegados para la optimización de procesos en sala de control (Gasvalpo).*
 
-### 6. [Pipeline ETL: Automatización PCS](https://github.com/Taki3995/Automatizacion-PCS.git)
+### 7. [Pipeline ETL: Automatización PCS](https://github.com/Taki3995/Automatizacion-PCS.git)
 Sistema de extracción, transformación y carga para automatizar el reporte crítico de Poder Calorífico Superior.
 *   **Impacto Operativo:** Reducción del tiempo de procesamiento de reportes de 1 hora a menos de 3 minutos.
 *   **Enfoque Técnico:** Extracción automática de datos vía servidores IMAP, parsing de PDFs y Web Scraping. Implementación de lógicas de imputación ("promedio inteligente") para cubrir vacíos de datos durante mantenimientos de sensores.
 *   **Stack:** `Python` `BeautifulSoup` `pdfplumber` `ETL Pipeline`
 
-### 7. Sistema Integral de Camiones GNL: [Extractor](https://github.com/Taki3995/Extractor_Camiones.git) & [Automatización](https://github.com/Taki3995/Automatizacion_Camiones.git)
+### 8. Sistema Integral de Camiones GNL: [Extractor](https://github.com/Taki3995/Extractor_Camiones.git) & [Automatización](https://github.com/Taki3995/Automatizacion_Camiones.git)
 Plataforma de monitoreo y proyección de niveles de inventario en estanques satélites de Gas Natural Licuado (GNL).
 *   **Impacto Operativo:** Mejora en la gestión de contingencias de carga y visibilidad logística.
 *   **Enfoque Técnico:** Implementación de modelos heurísticos basados en datos de consumo histórico (comparativas D vs D-365) para proyectar demanda. 
